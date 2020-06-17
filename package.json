@@ -1,15 +1,22 @@
 {
   "name": "my-badge",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "just a badge adder",
   "main": "lib/index.js",
   "types": "types.d.ts",
-  "files": ["lib/index.js", "types.d.ts"],
+  "files": [
+    "lib/index.js",
+    "types.d.ts"
+  ],
   "scripts": {
     "prepublish": "minify index.js -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["javascript", "badge", "twitter"],
+  "keywords": [
+    "javascript",
+    "badge",
+    "twitter"
+  ],
   "author": "heygema",
   "license": "MIT",
   "dependencies": {
