@@ -5,11 +5,11 @@
   "main": "lib/index.js",
   "types": "types.d.ts",
   "files": [
-    "lib/index.js",
+    "dist.js",
     "types.d.ts"
   ],
   "scripts": {
-    "prepublish": "minify index.js -d lib",
+    "prepublish": "uglifyjs index.js -o dist.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -19,7 +19,8 @@
   ],
   "author": "heygema",
   "license": "MIT",
-  "dependencies": {
-    "babel-minify": "^0.5.1"
+  "dependencies": {},
+  "devDependencies": {
+    "uglify-js": "^3.9.4"
   }
 }
