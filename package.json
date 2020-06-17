@@ -1,6 +1,6 @@
 {
   "name": "my-badge",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "just a badge adder",
   "main": "lib/index.js",
   "types": "types.d.ts",
