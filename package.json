@@ -1,6 +1,6 @@
 {
   "name": "my-badge",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "just a badge adder",
   "repository": "https://github.com/heygema/my-badge",
   "main": "lib/index.js",
