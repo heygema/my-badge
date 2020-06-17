@@ -2,6 +2,7 @@
   "name": "my-badge",
   "version": "1.0.3",
   "description": "just a badge adder",
+  "repository": "https://github.com/heygema/my-badge",
   "main": "lib/index.js",
   "types": "types.d.ts",
   "files": [
