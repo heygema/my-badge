@@ -86,4 +86,4 @@ function myBadge(handle, url) {
   }
 }
 
-exports.default = myBadge;
+module.exports = myBadge;
