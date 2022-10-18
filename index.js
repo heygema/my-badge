@@ -5,9 +5,6 @@ function getTemplate(twitterHandle, twitterURL) {
     "</div>",
     '<div id="gema-badge-wrapper">',
     '    <div id="gema-badge">',
-    '       <div class="gema-badge-item" id="badge-avatar-container">',
-    '          <div id="gema-badge-avatar" />',
-    "      </div>",
     "    ",
     '      <div class="gema-badge-item" id="badge-title-container">',
     '        <span id="gema-badge-credit">by <a href="' +
@@ -77,7 +74,7 @@ function getTemplate(twitterHandle, twitterURL) {
     "  background-repeat: no-repeat;",
     "}",
     "</style>",
-    ""
+    "",
   ];
 }
 
